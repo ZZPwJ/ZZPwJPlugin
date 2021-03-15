@@ -18,11 +18,23 @@
 
     <actions>
         <!-- Add your actions here -->
-        <group id="ZZPwJPlugin.HelloAction" text="Browse" description="about plugin">
+        <group id="ZZPwJPlugin.BrowseAction" text="Browse" description="about plugin">
             <add-to-group group-id="MainMenu" anchor="last"/>
             <action class="org.example.zzpwjplugin.BrowseStackOverflow" id="ZZPwJPlugin.Actions.StackAction"
                     text="StackOverflow">
                 <keyboard-shortcut first-keystroke="control alt shift Q" keymap="$default"/>
+            </action>
+            <action class="org.example.zzpwjplugin.BrowseBaeldung" id="ZZPwJPlugin.Actions.BaeldungAction"
+                    text="Baeldung">
+                <keyboard-shortcut first-keystroke="control alt shift E" keymap="$default"/>
+            </action>
+            <action class="org.example.zzpwjplugin.BrowseGitHub" id="ZZPwJPlugin.Actions.GitHubAction"
+                    text="GitHub">
+                <keyboard-shortcut first-keystroke="control alt shift R" keymap="$default"/>
+            </action>
+            <action class="org.example.zzpwjplugin.BrowseJetBrains" id="ZZPwJPlugin.Actions.JetBrainsAction"
+                    text="JetBrains Plugins">
+                <keyboard-shortcut first-keystroke="control alt shift O" keymap="$default"/>
             </action>
         </group>
 <!--        <action class="org.example.zzpwjplugin.BrowseStackOverflow" id="ZZPwJPlugin.Actions.StackAction"-->
