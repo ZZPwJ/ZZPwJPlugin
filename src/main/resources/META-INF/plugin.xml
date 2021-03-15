@@ -1,8 +1,8 @@
 <idea-plugin>
     <id>org.example.ZZPwJPlugin</id>
-    <name>Plugin display name here</name>
+    <name>WebBrowser</name>
     <version>1.0-SNAPSHOT</version>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">ZZPwJ</vendor>
+    <vendor email="example@yourcompany.com" url="https://github.com/ZZPwJ/ZZPwJPlugin">ZZPwJ</vendor>
 
     <description><![CDATA[
     Plugin made as exercise 1 for ZZPwJ subject
@@ -35,6 +35,7 @@
             <action class="org.example.zzpwjplugin.BrowseJetBrains" id="ZZPwJPlugin.Actions.JetBrainsAction"
                     text="JetBrains Plugins">
                 <keyboard-shortcut first-keystroke="control alt shift O" keymap="$default"/>
+            </action>
             <action class="org.example.zzpwjplugin.BrowseYoutube" id="ZZPwJPlugin.Actions.Youtube"
                     text="Youtube">
                 <keyboard-shortcut first-keystroke="control alt shift Y" keymap="$default"/>
@@ -45,7 +46,7 @@
             </action>
             <action class="org.example.zzpwjplugin.BrowseTutorialsPoint" id="ZZPwJPlugin.Actions.TutorialsPoint"
                     text="TutorialsPoint">
-                <keyboard-shortcut first-keystroke="control alt shift T" keymap="$default"/>
+                <keyboard-shortcut first-keystroke="control alt shift Z" keymap="$default"/>
             </action>
         </group>
 
