@@ -18,9 +18,16 @@
 
     <actions>
         <!-- Add your actions here -->
-        <group id="ZZPwJPlugin.HelloAction" text="First Plugin" description="about plugin">
+        <group id="ZZPwJPlugin.HelloAction" text="Browse" description="about plugin">
             <add-to-group group-id="MainMenu" anchor="last"/>
-            <action class="org.example.zzpwjplugin.HelloAction" id="ZZPwJPlugin.Actions.HelloAction" text="Witam"/>
+            <action class="org.example.zzpwjplugin.BrowseStackOverflow" id="ZZPwJPlugin.Actions.StackAction"
+                    text="StackOverflow">
+                <keyboard-shortcut first-keystroke="control alt shift Q" keymap="$default"/>
+            </action>
         </group>
+<!--        <action class="org.example.zzpwjplugin.BrowseStackOverflow" id="ZZPwJPlugin.Actions.StackAction"-->
+<!--                text="stackOverflow">-->
+<!--            <keyboard-shortcut first-keystroke="control alt N" keymap="$default"/>-->
+<!--        </action>-->
     </actions>
 </idea-plugin>
