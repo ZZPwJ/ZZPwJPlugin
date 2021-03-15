@@ -35,8 +35,20 @@
             <action class="org.example.zzpwjplugin.BrowseJetBrains" id="ZZPwJPlugin.Actions.JetBrainsAction"
                     text="JetBrains Plugins">
                 <keyboard-shortcut first-keystroke="control alt shift O" keymap="$default"/>
+            <action class="org.example.zzpwjplugin.BrowseYoutube" id="ZZPwJPlugin.Actions.Youtube"
+                    text="Youtube">
+                <keyboard-shortcut first-keystroke="control alt shift Y" keymap="$default"/>
+            </action>
+            <action class="org.example.zzpwjplugin.BrowseGoogle" id="ZZPwJPlugin.Actions.Google"
+                    text="Google">
+                <keyboard-shortcut first-keystroke="control alt shift G" keymap="$default"/>
+            </action>
+            <action class="org.example.zzpwjplugin.BrowseTutorialsPoint" id="ZZPwJPlugin.Actions.TutorialsPoint"
+                    text="TutorialsPoint">
+                <keyboard-shortcut first-keystroke="control alt shift T" keymap="$default"/>
             </action>
         </group>
+
 <!--        <action class="org.example.zzpwjplugin.BrowseStackOverflow" id="ZZPwJPlugin.Actions.StackAction"-->
 <!--                text="stackOverflow">-->
 <!--            <keyboard-shortcut first-keystroke="control alt N" keymap="$default"/>-->
