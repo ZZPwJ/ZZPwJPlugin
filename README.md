@@ -3,6 +3,11 @@
 Plugin for IntelliJ, which enables to browse the most needed browsers with one click. It also has functionality to
 search in Google and then browse you directly to Google site with your question.
 
+<div align="center">
+    <img src="https://github.com/ZZPwJ/ZZPwJPlugin/tree/master/screen/plugin.jpg" alt="result_page" >
+</div>
+
+
 ## ️ Group members <a name = "authors"></a>
 
 * [Monika Ciężka](https://github.com/monikaciezka)
