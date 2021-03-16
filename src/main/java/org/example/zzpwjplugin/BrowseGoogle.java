@@ -8,6 +8,7 @@ import org.jetbrains.annotations.NotNull;
 public class BrowseGoogle extends AnAction {
     @Override
     public void actionPerformed(@NotNull AnActionEvent e) {
-        BrowserUtil.browse("https://google.com");
+        CustomDialog dialog = new CustomDialog();
+        dialog.showAndGet();
     }
 }
