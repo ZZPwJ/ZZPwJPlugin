@@ -1,8 +1,8 @@
 <idea-plugin>
     <id>org.example.ZZPwJPlugin</id>
-    <name>Plugin display name here</name>
+    <name>WebBrowser</name>
     <version>1.0-SNAPSHOT</version>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">ZZPwJ</vendor>
+    <vendor email="example@yourcompany.com" url="https://github.com/ZZPwJ/ZZPwJPlugin">ZZPwJ</vendor>
 
     <description><![CDATA[
     Plugin made as exercise 1 for ZZPwJ subject
@@ -18,13 +18,38 @@
 
     <actions>
         <!-- Add your actions here -->
-        <group id="ZZPwJPlugin.HelloAction" text="Browse" description="about plugin">
+        <group id="ZZPwJPlugin.BrowseAction" text="Browse" description="about plugin">
             <add-to-group group-id="MainMenu" anchor="last"/>
             <action class="org.example.zzpwjplugin.BrowseStackOverflow" id="ZZPwJPlugin.Actions.StackAction"
                     text="StackOverflow">
                 <keyboard-shortcut first-keystroke="control alt shift Q" keymap="$default"/>
             </action>
+            <action class="org.example.zzpwjplugin.BrowseBaeldung" id="ZZPwJPlugin.Actions.BaeldungAction"
+                    text="Baeldung">
+                <keyboard-shortcut first-keystroke="control alt shift E" keymap="$default"/>
+            </action>
+            <action class="org.example.zzpwjplugin.BrowseGitHub" id="ZZPwJPlugin.Actions.GitHubAction"
+                    text="GitHub">
+                <keyboard-shortcut first-keystroke="control alt shift R" keymap="$default"/>
+            </action>
+            <action class="org.example.zzpwjplugin.BrowseJetBrains" id="ZZPwJPlugin.Actions.JetBrainsAction"
+                    text="JetBrains Plugins">
+                <keyboard-shortcut first-keystroke="control alt shift O" keymap="$default"/>
+            </action>
+            <action class="org.example.zzpwjplugin.BrowseYoutube" id="ZZPwJPlugin.Actions.Youtube"
+                    text="Youtube">
+                <keyboard-shortcut first-keystroke="control alt shift Y" keymap="$default"/>
+            </action>
+            <action class="org.example.zzpwjplugin.BrowseGoogle" id="ZZPwJPlugin.Actions.Google"
+                    text="Google">
+                <keyboard-shortcut first-keystroke="control alt shift G" keymap="$default"/>
+            </action>
+            <action class="org.example.zzpwjplugin.BrowseTutorialsPoint" id="ZZPwJPlugin.Actions.TutorialsPoint"
+                    text="TutorialsPoint">
+                <keyboard-shortcut first-keystroke="control alt shift Z" keymap="$default"/>
+            </action>
         </group>
+
 <!--        <action class="org.example.zzpwjplugin.BrowseStackOverflow" id="ZZPwJPlugin.Actions.StackAction"-->
 <!--                text="stackOverflow">-->
 <!--            <keyboard-shortcut first-keystroke="control alt N" keymap="$default"/>-->
