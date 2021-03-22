@@ -1,6 +1,6 @@
 # ZZPwJPlugin
 
-Plugin for IntelliJ, which enables to browse the most needed browsers with one click.
+Plugin for IntelliJ, which enables to browse the most needed browsers with one click ane automatically search in Google.
 
 <div align="center">
     <img src="https://github.com/ZZPwJ/ZZPwJPlugin/blob/master/screen/plugin.jpg" alt="result_page" >
