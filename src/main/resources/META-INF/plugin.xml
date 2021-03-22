@@ -18,7 +18,7 @@
 
     <actions>
         <!-- Add your actions here -->
-        <group id="ZZPwJPlugin.BrowseAction" text="Browse" description="about plugin">
+        <group id="ZZPwJPlugin.BrowseAction" text="Browse" description="About plugin">
             <add-to-group group-id="MainMenu" anchor="last"/>
             <action class="org.example.zzpwjplugin.BrowseStackOverflow" id="ZZPwJPlugin.Actions.StackAction"
                     text="StackOverflow">
